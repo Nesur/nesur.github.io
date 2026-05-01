@@ -13,7 +13,7 @@
       class="d-flex flex-column justify-content-center col-12 col-md-6 col-lg-4 p-0 portfolio-item border rounded shadow-sm"
       *ngFor="let portfolioItem of portfolioListFiltered">
       <div class="portfolio-item-content position-relative h-100 rounded">
-        <img class="img-fluid p-0 img-thumbnail h-100"
+        <img class="img-fluid p-0 img-thumbnail object-fit-cover" style="height: 300px;"
              [src]="portfolioItem.imagePath? portfolioItem.imagePath : '/public/img/sample.jpg'"
              [alt]="portfolioItem.name"/>
         <div class="portfolio-item-info position-absolute rounded">
@@ -22,8 +22,12 @@
 
           <div class="d-flex justify-content-evenly w-100">
             <a class="btn btn-light" [href]="portfolioItem.demoPath" target="_blank">
-              <i class="fa-solid fa-play"></i>
+              <i class="bi bi-play"></i>
               Demo
+            </a>
+            <a class="btn btn-light" *ngIf="portfolioItem.privacyPolicyUrl" [href]="portfolioItem.privacyPolicyUrl" target="_blank">
+              <i class="bi bi-info-circle"></i>
+              Privacy policy
             </a>
           </div>
         </div>

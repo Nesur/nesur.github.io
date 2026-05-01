@@ -1,7 +1,6 @@
 {
   "description": "I am an experienced fullstack developer. On a daily basis I professionally work with technologies such as Java, Javascript and their frameworks Spring Boot and Angular (2). I have participated in the implementation of many projects, but I have also been responsible for the implementation of several modules on my own, concerning the GUI, creating REST and SOAP API and several REST API integrations. I also have experience in mobile and desktop application development. I have been involved in developing several mobile applications for android and iOS. I have developed native applications for android and iOS platforms as well as cross-platform applications using frameworks such as Flutter, Ionic and JavaFX.",
   "city": "Gdańsk, Poland",
-  "phoneNumber": "724-230-862",
   "email": "wysockip14@gmail.com",
   "socialLinks": [
     {
@@ -424,6 +423,14 @@
     }
   ],
   "portfolio": [
+    {
+      "name": "Memory Flip",
+      "description": "Memory Flip is a mobile memory game where players match pairs of cards under time pressure. It features multiple difficulty levels, a coin-based progression system, and collectible cards that reward skill and consistency.",
+      "category": "Games",
+      "demoPath": "https://play.google.com/store/games",
+      "imagePath": "/public/data/memory_flip/memory_flip_thumbnail.png",
+      "privacyPolicyUrl": "/public/data/memory_flip/privacy_policy"
+    },
     {
       "name": "Shoot and survive",
       "description": "Choose a gun, abilities and survive waves of zombies.",

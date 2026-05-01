@@ -1,7 +1,6 @@
 export interface ResumeData {
   description: string;
   city: string;
-  phoneNumber: string;
   email: string;
   socialLinks: SocialLinkData[];
   experiences: ExperienceData[];
@@ -56,6 +55,7 @@ export interface PortfolioData {
   category: PortfolioCategory;
   demoPath: string;
   imagePath: string;
+  privacyPolicyUrl: string;
 }
 
 export enum PortfolioCategory {
