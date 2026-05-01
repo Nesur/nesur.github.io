@@ -1,0 +1,188 @@
+<main class="main">
+  <!-- Hero Section -->
+  <section id="hero" class="hero section light-background">
+
+    <img src="/public/img/hero-image.png" alt="background">
+
+    <div class="container" data-aos="zoom-out">
+      <div class="row justify-content-center">
+        <div class="col-lg-9 text-center">
+          <h2>Piotr Wysocki</h2>
+          <p>I'm <span class="typed-element"></span><span class="typed-cursor typed-cursor--blink"
+                                                          aria-hidden="true"></span></p>
+          <div class="social-links">
+            <a *ngFor="let link of resumeData?.socialLinks"
+               target="_blank"
+               [href]="link.url">
+              <i [class]="link.icon"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section><!-- /Hero Section -->
+
+  <!-- About Section -->
+  <section id="about" class="about section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>About</h2>
+      <p>{{ resumeData?.description }}</p>
+
+    </div><!-- End Section Title -->
+
+  </section><!-- /About Section -->
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Skills</h2>
+      <p>Below I have listed the skills in which I have experience grouping them into different areas.</p>
+    </div><!-- End Section Title -->
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+      <div class="row skills-content skills-animation">
+
+        <div class="col-lg-3" *ngFor="let skillsGrouped of skillsGroupedByCategory">
+          <h5>{{ skillsGrouped.category }}</h5>
+          <hr/>
+          <div class="progress" *ngFor="let skill of skillsGrouped.skills">
+            <span class="skill"><span>{{ skill.name }}</span> <i class="val">100%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuemin="0" [style.width]="skill.experience+'%'"
+                   aria-valuemax="100"></div>
+            </div>
+          </div><!-- End Skills Item -->
+        </div>
+      </div>
+
+    </div>
+
+  </section><!-- /Skills Section -->
+  <!-- Workflow Section -->
+  <section id="workflow" class="workflow section">
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Workflow</h2>
+        <p *ngFor="let workflow of resumeData?.workflows">{{ workflow }}</p>
+      </div><!-- End Section Title -->
+    </div>
+
+  </section><!-- /Workflow Section -->
+
+  <section id="interests" class="interests section">
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Interests</h2>
+      <p *ngFor="let intrest of resumeData?.interests">{{ intrest }}</p>
+    </div><!-- End Section Title -->
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="resume section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Resume</h2>
+    </div><!-- End Section Title -->
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="resume-title">Summary</h3>
+
+          <div class="resume-item pb-0">
+            <h4>Piotr Wysocki</h4>
+            <p><em>{{ resumeData?.description }}</em>
+            </p>
+            <ul>
+              <li>{{ resumeData?.city }}</li>
+              <li>{{ resumeData?.phoneNumber }}</li>
+            </ul>
+          </div><!-- Edn Resume Item -->
+
+          <h3 class="resume-title">Education</h3>
+          <div class="resume-item" *ngFor="let education of resumeData?.education">
+            <h4>{{ education.degree }}</h4>
+            <h5>{{ education.dateFrom }} - {{ education.dateTo }}</h5>
+            <p><em>{{ education.school }}</em></p>
+            <p>{{
+                education.description
+              }}</p>
+          </div><!-- Edn Resume Item -->
+
+
+          <h3 class="resume-title">Courses & Certifications</h3>
+          <div class="resume-item" *ngFor="let cert of resumeData?.courses">
+            <h4>{{ cert.name }}</h4>
+            <h5>{{ cert.issued }}</h5>
+            <p><em>{{ cert.issuingOrganization }}</em></p>
+
+            <a *ngIf="cert.credentialUrl" target="_blank" [href]="cert.credentialUrl" class="btn btn-outline-primary">Credential
+              <i class="bi bi-box-arrow-up-right"></i></a>
+          </div><!-- Edn Resume Item -->
+
+
+          <h3 class="resume-title">Languages</h3>
+          <div class="resume-item" *ngFor="let lang of resumeData?.languages">
+            <h4>{{ lang }}</h4>
+          </div><!-- Edn Resume Item -->
+
+        </div>
+
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          <h3 class="resume-title">Professional Experience</h3>
+          <div class="resume-item" *ngFor="let experience of resumeData?.experiences">
+            <h4>{{ experience.role }}</h4>
+            <h5>{{ experience.dateFrom }}
+              - {{ experience.dateTo != null ? experience.dateTo : 'Present' }}</h5>
+            <p><em>{{ experience.company }} </em></p>
+            <p>{{ experience.description }}</p>
+            <div *ngIf="experience.responsibilities">
+              <p>Projects/Integrations/Responsibilities:</p>
+              <ul>
+                <li *ngFor="let responsibility of experience.responsibilities">{{ responsibility }}</li>
+              </ul>
+            </div>
+
+          </div><!-- Edn Resume Item -->
+        </div>
+
+      </div>
+
+    </div>
+
+  </section><!-- /Resume Section -->
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Portfolio</h2>
+      <p>Here I present all of my free time hobbyist projects.</p>
+    </div><!-- End Section Title -->
+
+    <div class="container">
+      <ng-container *ngIf="resumeData?.portfolio">
+        <app-portfolio [portfolioList]="resumeData!.portfolio"></app-portfolio>
+      </ng-container>
+    </div>
+  </section><!-- /Portfolio Section -->
+</main>
+
+<footer id="footer" class="footer position-relative light-background">
+  <div class="container">
+    <div class="copyright">
+      <span>Copyright</span>&copy;2026 <strong class="px-1 sitename">Piotr Wysocki</strong> <span>All Rights Reserved</span>
+    </div>
+  </div>
+</footer>

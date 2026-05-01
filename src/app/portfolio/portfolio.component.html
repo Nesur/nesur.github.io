@@ -1,0 +1,33 @@
+<div class="container text-center">
+  <div class="d-flex pb-2 justify-content-end align-items-center">
+    <div class="btn-group m-2" role="group" aria-label="Basic example">
+      <button type="button" [class.active]="isSelectedCategory(category)"
+              class="btn btn-light"
+              (click)="onCategorySelected(category)"
+              *ngFor="let category of categories">{{ category }}
+      </button>
+    </div>
+  </div>
+  <div class="row">
+    <div
+      class="d-flex flex-column justify-content-center col-12 col-md-6 col-lg-4 p-0 portfolio-item border rounded shadow-sm"
+      *ngFor="let portfolioItem of portfolioListFiltered">
+      <div class="portfolio-item-content position-relative h-100 rounded">
+        <img class="img-fluid p-0 img-thumbnail h-100"
+             [src]="portfolioItem.imagePath? portfolioItem.imagePath : '/public/img/sample.jpg'"
+             [alt]="portfolioItem.name"/>
+        <div class="portfolio-item-info position-absolute rounded">
+          <p class="text-white mx-4 p-2">{{ portfolioItem.name }}</p>
+          <p class="text-white mx-4 p-2">{{ portfolioItem.description }}</p>
+
+          <div class="d-flex justify-content-evenly w-100">
+            <a class="btn btn-light" [href]="portfolioItem.demoPath" target="_blank">
+              <i class="fa-solid fa-play"></i>
+              Demo
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

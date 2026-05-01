@@ -1,0 +1,116 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "portfolio": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
+      "root": "",
+      "sourceRoot": "src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:application",
+          "options": {
+            "outputPath": "dist/portfolio",
+            "index": "src/index.html",
+            "browser": "src/main.ts",
+            "polyfills": [
+              "zone.js",
+              "@angular/localize/init"
+            ],
+            "tsConfig": "tsconfig.app.json",
+            "inlineStyleLanguage": "scss",
+            "assets": [
+              {
+                "glob": "**/*",
+                "input": "public",
+                "output": "/public/"
+              }
+            ],
+            "styles": [
+              "src/css/vendor/bootstrap/bootstrap.min.css",
+              "src/css/vendor/bootstrap-icons/bootstrap-icons.scss",
+              "src/css/vendor/aos/aos.css",
+              "src/css/scss/main.scss",
+              "src/css/scss/main.scss"
+            ],
+            "scripts": [
+              "src/js/vendor/bootstrap/bootstrap.bundle.min.js",
+              "src/js/vendor/php-email-form/validate.js",
+              "src/js/vendor/aos/aos.js",
+              "src/js/vendor/waypoints/noframework.waypoints.js",
+              "src/js/vendor/imagesloaded/imagesloaded.pkgd.min.js",
+              "src/js/main.js"
+            ]
+          },
+          "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "15MB",
+                  "maximumError": "25MB"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "1MB",
+                  "maximumError": "2MB"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "development": {
+              "optimization": false,
+              "extractLicenses": false,
+              "sourceMap": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "configurations": {
+            "production": {
+              "buildTarget": "portfolio:build:production"
+            },
+            "development": {
+              "buildTarget": "portfolio:build:development"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing",
+              "@angular/localize/init"
+            ],
+            "tsConfig": "tsconfig.spec.json",
+            "inlineStyleLanguage": "scss",
+            "assets": [
+              {
+                "glob": "**/*",
+                "input": "public"
+              }
+            ],
+            "styles": [
+              "src/styles.scss"
+            ],
+            "scripts": []
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,5 @@
 # Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: Build and deploy static content to Pages
 
 on:
   # Runs on pushes targeting the default branch
@@ -33,11 +33,23 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run build --if-present
+      - name: Upload static site content
+        uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-build
+          path: dist/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: '.'
+          name: 'portfolio-build'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5

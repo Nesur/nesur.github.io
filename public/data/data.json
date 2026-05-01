@@ -1,0 +1,469 @@
+{
+  "description": "I am an experienced fullstack developer. On a daily basis I professionally work with technologies such as Java, Javascript and their frameworks Spring Boot and Angular (2). I have participated in the implementation of many projects, but I have also been responsible for the implementation of several modules on my own, concerning the GUI, creating REST and SOAP API and several REST API integrations. I also have experience in mobile and desktop application development. I have been involved in developing several mobile applications for android and iOS. I have developed native applications for android and iOS platforms as well as cross-platform applications using frameworks such as Flutter, Ionic and JavaFX.",
+  "city": "Gdańsk, Poland",
+  "phoneNumber": "724-230-862",
+  "email": "wysockip14@gmail.com",
+  "socialLinks": [
+    {
+      "icon": "bi bi-linkedin",
+      "url": "https://www.linkedin.com/in/piotr-wysocki-974a74b1/"
+    },
+    {
+      "icon": "bi bi-github",
+      "url": "https://github.com/Nesur"
+    },
+    {
+      "icon": "bi bi-unity",
+      "url": "https://learn.unity.com/u/5da37e24edbc2a0020d183af"
+    }
+  ],
+  "experiences": [
+    {
+      "role": "Senior Software Engineer",
+      "company": "Xtension Sp. z o.o.",
+      "dateFrom": "07.2022",
+      "dateTo": null,
+      "description": "The main responsibilities were development of existing web and mobile applications as a fullstack developer - mainly signaturiX project, maintenance, stabilization of existing projects (including database, memory, performance optimizations) and code review.",
+      "responsibilities": [
+        "signaturiX - digital signature platform development and maintenance including Android and iOS signaturiX app",
+        "signaturiX Audit - creation of an audit module for the signaturiX project to record system logs and verify their integrity",
+        "LOTOS PAY&GO - maintenance and changes related to the acquisition by MOL",
+        "AutoPay (Blue Media) - integrating with AutoPay SMS gateway and creating a module/API for the signaturiX system for sending SMS messages, which uses currently integrated gateways, among others AutoPay.",
+        "IDENTT - integrating signaturiX with the identity verification system. Establish document processes with physical and electronic identity document (mObywatel)"
+      ]
+    },
+    {
+      "role": "Software Engineer",
+      "company": "Xtension Sp. z o.o.",
+      "dateFrom": "09.2021",
+      "dateTo": "06.2022",
+      "description": "The main responsibilities were development of existing web and mobile applications as a fullstack developer - mainly signaturiX project, maintenance, stabilization of existing projects (including memory, performance optimizations) and code review.",
+      "responsibilities": [
+        "signaturiX - digital signature platform development and maintenance and creating Android and iOS signaturiX app",
+        "LOTOS PAY&GO - maintenance and new features development",
+        "LOTOS CSMS - maintenance and development of the charging station management system"
+      ]
+    },
+    {
+      "role": "Software Engineer",
+      "company": "Monolit IT Sp. z o.o.",
+      "dateFrom": "12.2017",
+      "dateTo": "08.2021",
+      "description": "The main responsibilities were to create new and develop existing web and mobile applications, both frontend and backend layers. In addition, maintaining, stabilizing existing projects, code review and creating tools for in-house use by, for example, testers.",
+      "responsibilities": [
+        "signaturiX - digital signature platform development and maintenance. Creating REST and SOAP services, API documentation, business logic for emerging functionalities. Designing and creating database models for new functionalities. Writing unit tests and integration with existing services.",
+        "LOTOS PAY&GO - development of mobile app for following platform, Android, iOS, AppGallery using flutter",
+        "LOTOS survey app - rewriting existing app from c# forms in Ionic framework for iPAD devices",
+        "Porta CRM - development of web app using Spring Boot, JPA, Envers, SSO",
+        "Stogda Time Management System - development of web app using nodejs and expressjs framework"
+      ]
+    },
+    {
+      "role": "Junior Software Engineer",
+      "company": "Asseco Poland S.A.",
+      "dateFrom": "10.2016",
+      "dateTo": "07.2017",
+      "description": "Maintenance of the system for handling orders for Cyfrowy Polsat TV and Plus energy sales platform.",
+      "responsibilities": [
+        "Fixing errors",
+        "Resuming jBPM processes",
+        "MsSQL data repair scripts",
+        "Second line support",
+        "JMS queue cleaning and message patching"
+      ]
+    },
+    {
+      "role": "Junior Software Engineer",
+      "company": "Pika Technologie S.A.",
+      "dateFrom": "02.2016",
+      "dateTo": "09.2016",
+      "description": "Maintenance and development for web apps and mobile app.",
+      "responsibilities": [
+        "Oversee the production implementation of the mobile application and server for the \"OCR\" project",
+        "Maintenance and support for the \"OCR\" project",
+        "Making changes and improvements (after production deployment comments) in the mobile application for the \"OCR\" project",
+        "Configuration of the new product \"Standard Digital Archive\"",
+        "Configuration of a smaller Digital Archive and creation of a mechanism for categorizing scanned documents",
+        "Configuration and creation of several modules in the Pricing Registry project (Spring Framework + MongoDB)",
+        "Masterflow project (warehouse system)",
+        "Changes and fixes in the mobile application after transfer from another vendor",
+        "Pika Technologie website and CMS module",
+        "Changes to the mechanism of transfer reports to FTP (login with a key)"
+      ]
+    },
+    {
+      "role": "Software Engineer Intern",
+      "company": "Pika Technologie S.A.",
+      "dateFrom": "07.2015",
+      "dateTo": "01.2016",
+      "description": "Web and mobile development.",
+      "responsibilities": [
+        "Creation of a mobile application (Android) for the \"OCR\" project",
+        "Creation of a server (Spring Framework) to handle the data sent from the mobile application for the \"OCR\" project",
+        "JAX-WS web service used by mobile application submit tasks to send the reprocessed data on server to the project customer for the \"OCR\" project",
+        "Creation of web service clients in a couple of projects",
+        "Creation of several modules in the project to create XML configurations for the company's main product",
+        "Creation of technical documentation of the server part and mobile application for the \"OCR\" project"
+      ]
+    },
+    {
+      "role": "Website developer",
+      "company": "KSN Dariusz Wysocki",
+      "dateFrom": "06.2012",
+      "dateTo": "12.2015",
+      "description": "Creating and maintaining a website, using the bootstrap framework, creating a function for contacting and signing up online."
+    },
+    {
+      "role": "Practitioner",
+      "company": "PGM Sp. z o. o",
+      "dateFrom": "08.2014",
+      "dateTo": "08.2014",
+      "description": "Supervise the operation of the server and workstations, support the operation of computers and other equipment."
+    }
+  ],
+  "education": [
+    {
+      "school": "Polish-Japanese Academy of Information Technology",
+      "dateFrom": "10.2011",
+      "dateTo": "02.2015",
+      "degree": "Bachelor of Engineering",
+      "description": "Bachelor's degree in computer science with specialization in Internet Applications and Networks."
+    },
+    {
+      "school": "ZSI Słupsk",
+      "dateFrom": "09.2007",
+      "dateTo": "06.2011",
+      "degree": "IT technician",
+      "description": "Technician's degree in computer science with specialization in Internet Applications."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Java",
+      "category": "Programming language",
+      "experience": 90
+    },
+    {
+      "name": "JavaScript",
+      "category": "Programming language",
+      "experience": 80
+    },
+    {
+      "name": "TypeScript",
+      "category": "Programming language",
+      "experience": 80
+    },
+    {
+      "name": "C#",
+      "category": "Programming language",
+      "experience": 60
+    },
+    {
+      "name": "Python",
+      "category": "Programming language",
+      "experience": 30
+    },
+    {
+      "name": "Dart",
+      "category": "Programming language",
+      "experience": 40
+    },
+    {
+      "name": "Spring Boot",
+      "category": "Framework",
+      "experience": 95
+    },
+    {
+      "name": "Angular",
+      "category": "Framework",
+      "experience": 95
+    },
+    {
+      "name": "Bootstrap",
+      "category": "Framework",
+      "experience": 90
+    },
+    {
+      "name": "jQuery",
+      "category": "Framework",
+      "experience": 80
+    },
+    {
+      "name": "Vue",
+      "category": "Framework",
+      "experience": 50
+    },
+    {
+      "name": "HTML5",
+      "category": "Web",
+      "experience": 90
+    },
+    {
+      "name": "CSS",
+      "category": "Web",
+      "experience": 90
+    },
+    {
+      "name": "SASS (SCSS)",
+      "category": "Tools",
+      "experience": 80
+    },
+    {
+      "name": "Android SDK",
+      "category": "Framework",
+      "experience": 60
+    },
+    {
+      "name": "Unity",
+      "category": "Game engine",
+      "experience": 70
+    },
+    {
+      "name": "NodeJS",
+      "category": "Tools",
+      "experience": 60
+    },
+    {
+      "name": "npm",
+      "category": "Tools",
+      "experience": 95
+    },
+    {
+      "name": "GIT",
+      "category": "Tools",
+      "experience": 70
+    },
+    {
+      "name": "Maven",
+      "category": "Tools",
+      "experience": 90
+    },
+    {
+      "name": "Gradle",
+      "category": "Tools",
+      "experience": 65
+    },
+    {
+      "name": "SVN",
+      "category": "Tools",
+      "experience": 80
+    },
+    {
+      "name": "Flutter",
+      "category": "Framework",
+      "experience": 65
+    },
+    {
+      "name": "JavaFX",
+      "category": "Framework",
+      "experience": 80
+    },
+    {
+      "name": "Swagger",
+      "category": "Tools",
+      "experience": 80
+    },
+    {
+      "name": "SQL",
+      "category": "Programming language",
+      "experience": 80
+    },
+    {
+      "name": "Swift",
+      "category": "Programming language",
+      "experience": 15
+    },
+    {
+      "name": "PostgreSQL",
+      "category": "Databases",
+      "experience": 70
+    },
+    {
+      "name": "MongoDB",
+      "category": "Databases",
+      "experience": 50
+    },
+    {
+      "name": "IndexedDB",
+      "category": "Databases",
+      "experience": 40
+    },
+    {
+      "name": "Redis",
+      "category": "Databases",
+      "experience": 30
+    }
+  ],
+  "workflows": [
+    "Clean-code, SOLID, design patterns, DRY, unit testing",
+    "Agile Development",
+    "DevTools",
+    "CI/CD",
+    "Mobile-First, Responsive Design",
+    "Jira, Confluence"
+  ],
+  "interests": [
+    "GameDev industry - playing, news and learning to make my own games w Unity",
+    "Further personal development including software development, stock exchange by taking different courses, books",
+    "Because I spend a lot of time in front of the computer I do some physical activities like running and strength training",
+    "Reading fantasy books like \"World of Warcraft\", \"Lord of the rings\", \"The Witcher\"",
+    "I always wanted to learn an Asian language. Everything started with japanese but because of large alphabet I stopped. After getting into Korean dramas I decided to start learning Korean and now I know Korean at simple communication level.",
+    "and because there is no enough time, just trying other different things like electronics using Raspberry PI, 3D printing etc."
+  ],
+  "courses": [
+    {
+      "name": "Unity Creative Core",
+      "issuingOrganization": "Unity Technologies",
+      "issued": "09-2024",
+      "credentialUrl": "https://www.credly.com/badges/20d084aa-0a08-42c4-a908-c527941a6837"
+    },
+    {
+      "name": "Unity Junior Programmer",
+      "issuingOrganization": "Unity Technologies",
+      "issued": "06-2024",
+      "credentialUrl": "https://www.credly.com/badges/68593d54-6f26-42cb-b691-fe8081e5f2d8"
+    },
+    {
+      "name": "The Complete Foundation Stock Trading Course",
+      "issuingOrganization": "Mohsen Hassan, bloom team via Udemy platform",
+      "issued": "03-2024",
+      "credentialUrl": "https://www.udemy.com/certificate/UC-ce039616-086d-4896-a78e-87d057d871e7/"
+    },
+    {
+      "name": "Oracle Certified Associate, Java SE 8 Programmer",
+      "issuingOrganization": "Oracle",
+      "issued": "03-2023",
+      "credentialUrl": "https://catalog-education.oracle.com/pls/certview/sharebadge?id=621AFD66ED1324F4742C414EA85EF18F676349F2CE515207571B4671369D9813"
+    },
+    {
+      "name": "Oracle Java Certification - Pass the Associate 1Z0-808 Exam",
+      "issuingOrganization": "Tim Buchalka's Learn Programming Academy, Goran Lochert",
+      "issued": "03-2023",
+      "credentialUrl": "https://www.udemy.com/certificate/UC-705c30f4-db85-4202-9a36-8e13f0d8768f/"
+    },
+    {
+      "name": "Kurs elektroniki, poziom 2",
+      "issuingOrganization": "Forbot",
+      "issued": "08-2021"
+    },
+    {
+      "name": "Kurs podstaw elektroniki, poziom 1",
+      "issuingOrganization": "Forbot",
+      "issued": "08-2021"
+    },
+    {
+      "name": "Kurs podstaw lutowania, poziom 1",
+      "issuingOrganization": "Forbot",
+      "issued": "08-2021"
+    },
+    {
+      "name": "Docker Mastery: with Kubernetes + Swarm from a Docker Captain",
+      "issuingOrganization": "Bret Fisher, Docker Captain Program via Udemy platform",
+      "issued": "09-2020",
+      "credentialUrl": "https://www.udemy.com/certificate/UC-a67adbc8-7935-48ef-a09f-973098ab14b1/"
+    },
+    {
+      "name": "Complete C# Unity Game Developer 2D",
+      "issuingOrganization": "GameDev.tv via Udemy platform",
+      "issued": "07-2020",
+      "credentialUrl": "https://www.udemy.com/certificate/UC-1dadf843-ec9b-4d4a-a011-92857e9d9821/"
+    },
+    {
+      "name": "JSF 2.2 - Java Server Faces for Beginners - Build a DB App",
+      "issuingOrganization": "Chad Darby instructor via Udemy platform",
+      "issued": "06-2017",
+      "credentialUrl": "https://www.udemy.com/certificate/UC-I396CDAZ/"
+    },
+    {
+      "name": "Java Persistence: Hibernate and JPA Fundamentals",
+      "issuingOrganization": "Deshraj Singh Kiran instructor via Udemy platform",
+      "issued": "04-2016",
+      "credentialUrl": "https://www.udemy.com/certificate/UC-3JG1TRAD/"
+    },
+    {
+      "name": "Programming Mobile Applications for Android Handheld Systems: Part 2",
+      "issuingOrganization": "University of Maryland via coursera platform",
+      "issued": "11-2015",
+      "credentialUrl": "https://coursera.org/share/2c908cd9b36cded593d6f33c427e8f09"
+    },
+    {
+      "name": "Programming Mobile Applications for Android Handheld Systems: Part 1",
+      "issuingOrganization": "University of Maryland via coursera platform",
+      "issued": "09-2015",
+      "credentialUrl": "https://coursera.org/share/ed69133d08e07f7f53b488b7bf9a9597"
+    },
+    {
+      "name": "Learn HTML5 from W3C",
+      "issuingOrganization": "W3C via edX platform",
+      "issued": "07-2015"
+    },
+    {
+      "name": "Microsoft DEV201x - Introduction to TypeScript",
+      "issuingOrganization": "Microsoft via edX platform",
+      "issued": "05-2015"
+    },
+    {
+      "name": "Microsoft DEV203x - Introduction to Bootstrap",
+      "issuingOrganization": "Microsoft via edX platform",
+      "issued": "04-2015"
+    },
+    {
+      "name": "ITA-105: Object Oriented Programming in C#",
+      "issuingOrganization": "Microsoft IT Academy by Tomasz Borzyszkowski - MCT: Microsoft Certified Trainer",
+      "issued": "04-2014"
+    },
+    {
+      "name": "6.002x: Circuits and Electronics by The Massachusetts Institute of Technology through edX",
+      "issuingOrganization": "MITx via edX platform",
+      "issued": "07-2013"
+    },
+    {
+      "name": "The Hour of Code",
+      "issuingOrganization": "www.code.org",
+      "issued": "12-2013"
+    }
+  ],
+  "portfolio": [
+    {
+      "name": "Shoot and survive",
+      "description": "Choose a gun, abilities and survive waves of zombies.",
+      "category": "Games",
+      "demoPath": "https://play.unity.com/en/games/e56e159b-362a-4215-8fe0-bf5e18625054/shoot-and-survive",
+      "imagePath": "/public/data/demos/shoot and survive/sas_thumbnail.jpg"
+    },
+    {
+      "name": "Snake",
+      "description": "Remade classic snake game in 3D with some additional elements like music, UI and consumables",
+      "category": "Games",
+      "demoPath": "https://play.unity.com/en/games/1d9c5502-260e-4da3-93d8-7318d7327a97/webgl-builds",
+      "imagePath": "/public/data/demos/snake/snake_thumbnail.jpg"
+    },
+    {
+      "name": "Dartz",
+      "description": "Throwing darts game",
+      "category": "Games",
+      "demoPath": "https://play.unity.com/en/games/389c973d-df8f-4740-9eb3-13babeeece34/counting-prototype-darts",
+      "imagePath": "/public/data/demos/dartz/dartz_thumbnail.jpg"
+    },
+    {
+      "name": "Coffee Machine",
+      "description": "Project for 'Programming theory in action' course implementing Coffee machine",
+      "category": "Unity Learn",
+      "demoPath": "https://play.unity.com/en/games/53145fae-3f88-43ee-a498-b33e5998de17/webgl-builds",
+      "imagePath": "/public/data/demos/coffee_maker/coffee_maker_thumbnail.jpg"
+    },
+    {
+      "name": "Unity Learn profile",
+      "description": "Profile link with all courses, submissions, badges",
+      "category": "Unity Learn",
+      "imagePath": "/public/data/demos/unity_learn/unity_learn_profile.jpg",
+      "demoPath": "https://learn.unity.com/u/5da37e24edbc2a0020d183af?tab=profile"
+    }
+  ],
+  "languages": [
+    "Polish - Native",
+    "English - Intermediate",
+    "Spanish - Basic",
+    "Korean - Basic"
+  ]
+}
