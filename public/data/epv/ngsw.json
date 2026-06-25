@@ -1,0 +1,83 @@
+{
+  "configVersion": 1,
+  "timestamp": 1782405016641,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app-shell",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.svg",
+        "/index.html",
+        "/main-473JEL72.js",
+        "/manifest.webmanifest",
+        "/styles-TATVKOL6.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-maskable-512x512.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "pse-price-api",
+      "patterns": [
+        "\\/pse-api\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 100,
+      "maxAge": 2592000000,
+      "timeoutMs": 3000,
+      "refreshAheadMs": 1800000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/assets/icons/icon-192x192.png": "965e43cbc4e75ffed3b4c7cabae4316a4c7346ba",
+    "/assets/icons/icon-512x512.png": "53ea3431bec71e5f928e4f96c38b33d596ef8561",
+    "/assets/icons/icon-maskable-512x512.png": "bddda46da4976c4567b834bd74763d66b49fb9a8",
+    "/favicon.svg": "c95adff0e2c0ad99b2bd4ce06106dec29b2a5a2b",
+    "/index.html": "5d14ac031b9f1cb5cb915197fdc7adb72624c10d",
+    "/main-473JEL72.js": "032dddc6a1903e1fbcc313765f8e7b2da189602f",
+    "/manifest.webmanifest": "22a1cb9623396c11631244bffddb63fc67e4fd20",
+    "/styles-TATVKOL6.css": "d4190e95661df3699a06232cfd057b5e69edf269"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
