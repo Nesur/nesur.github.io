@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1782549492148,
+  "timestamp": 1782758521838,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/favicon.svg",
         "/index.html",
-        "/main-67X7A3XR.js",
+        "/main-TWX5GMXV.js",
         "/manifest.webmanifest",
         "/styles-TATVKOL6.css"
       ],
@@ -56,8 +56,8 @@
     "/assets/icons/icon-512x512.png": "53ea3431bec71e5f928e4f96c38b33d596ef8561",
     "/assets/icons/icon-maskable-512x512.png": "bddda46da4976c4567b834bd74763d66b49fb9a8",
     "/favicon.svg": "c95adff0e2c0ad99b2bd4ce06106dec29b2a5a2b",
-    "/index.html": "d408a419bb2cc6367c365fcf27b2558976105ebe",
-    "/main-67X7A3XR.js": "e704f907eb25cc04990a0e89242e09e16683e30c",
+    "/index.html": "75baceefd248fcd1f4714afdaa378b8cdf0af47c",
+    "/main-TWX5GMXV.js": "235ae324f390f52c804d1ac2815ef61c9ea1369c",
     "/manifest.webmanifest": "dd95678fe810d6c37469ca9e01e79bc2ac0adf90",
     "/styles-TATVKOL6.css": "d4190e95661df3699a06232cfd057b5e69edf269"
   },
