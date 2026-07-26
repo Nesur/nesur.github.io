@@ -427,7 +427,7 @@
       "name": "Memory Flip",
       "description": "Memory Flip is a mobile memory game where players match pairs of cards under time pressure. It features multiple difficulty levels, a coin-based progression system, and collectible cards that reward skill and consistency.",
       "category": "Games",
-      "demoPath": "https://play.google.com/store/games",
+      "demoPath": "https://play.google.com/store/apps/details?id=pl.nesur.memoryflip",
       "imagePath": "/public/data/memory_flip/memory_flip_thumbnail.png",
       "privacyPolicyUrl": "/public/data/memory_flip/privacy_policy"
     },
